@@ -1,4 +1,5 @@
 # N46Whisper
+因为原作者不更新了所以我弄一个分支保证正常使用
 
 Language : [English](./README.md)  | 简体中文
 
