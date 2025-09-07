@@ -1,5 +1,5 @@
 # N46Whisper
-因为原作者不更新了所以我弄一个分支保证正常使用
+本项目为https://github.com/Ayanaminn/N46Whisper的一个分支，原作者不再更新，本项目保持最低限度的可用性。
 
 Language : [English](./README.md)  | 简体中文
 
@@ -9,25 +9,8 @@ N46Whisper 是基于 Google Colab 的应用。开发初衷旨在提高乃木坂4
 
 应用输出文件为ass或srt格式，内置指定字幕组的字幕格式，可直接导入 [Aegisub](https://github.com/Aegisub/Aegisub) 进行后续翻译及时间轴校正。
 
-## 最近更新:
-**本项目将不再进行维护和更新，感谢大家的帮助和支持。**
-
-2024.4.17:
-* 添加使用Google Gemini API翻译的选项。
-
-2024.1.31:
-* 鉴于集成的参数选项（还会）越来越多有使流程变得繁琐的趋势，这有违开发初衷。因此测试分离了一个[轻量版](https://colab.research.google.com/github/Ayanaminn/N46Whisper/blob/dev/N46WhisperLite.ipynb)，只保留最少的必要操作。
-
-2023.12.4:
-* 支持基于faster-whisper的v3模型
-
-2023.11.7:
-* 可以使用最新的Whisper V3 model。
-* 可以自定义beam size参数。
-
-
 ## 如何使用
-* [点击这里](https://colab.research.google.com/github/Ayanaminn/N46Whisper/blob/main/N46Whisper.ipynb) 在Google Colab中打开应用.
+* [点击这里]([https://colab.research.google.com/github/Ayanaminn/N46Whisper/blob/main/N46Whisper.ipynb](https://colab.research.google.com/github/Hashimoto-Mori/N46Whisper/blob/main/N46Whisper.ipynb)) 在Google Colab中打开应用.
 * 上传要识别的文件并运行应用
 * 识别完成后ass文件会自动下载到本地.
 
@@ -72,40 +55,6 @@ N46Whisper 是基于 Google Colab 的应用。开发初衷旨在提高乃木坂4
 
 
 此外可以看到，在两种情况下英文单字都不会被分割。
-
-## 更新日志
-
-2023.4.30:
-* 优化提示词
-* 允许用户使用个人提示词并调节Temperature参数
-* 显示翻译任务消费统计
-
-2023.4.15:
-* 使用faster-whisper模型重新部署以提高效率，节省资源
-* 提供faster-whisper集成的vad filter选项以提高转录精度
-  
-2023.4.10:
-* 支持选择/上传多个文件以批量转录。
-
-2023.4.1:
-* 更新工作流程，使用pysubs2库代替Whisper自带的WriteSRT类处理字幕文件格式。
-* 支持单独上传srt或ass文件来使用翻译功能，支持显示翻译进度条。
-* 修订文档以及其它一些优化。
-
-2023.3.15:
-* 添加根据空格自动分行功能。
-* 修订文档以及其它一些优化。
-
-2023.3.12:
-* 添加chatGPT翻译并生成双语字幕功能.
-* 修订文档以及其它一些优化。
-
-2023.01.26：
-* 更新脚本以反映近期Whisper的更新。
-
-2022.12.31：
-* 添加了允许用户从挂载的谷歌云盘中直接选择要转换的文件的功能。本地上传文件的选项仍然保留。
-* 修订文档以及其它一些优化。
 
 ## 支持
 根据我们使用若干视频的测试结果，输出**原文字幕**的识别准确率可以达到90%以上，这无疑能极大地节省听译及打轴所需的人手和时间。但本应用的目标并非生产完美的字幕文件， 而旨在于搭建并提供一个简单且自动化的使用平台以节省生产成品字幕的时间和精力。Whisper模型有其本身的应用场景限制，例如视频中出现明显地背景音，长时间空白和多人对话，都可能影响识别准确度。AI翻译的质量也还不能尽如人意。您可以阅读官方文档及讨论区来进一步了解如何使用Whisper以及常见问题。
