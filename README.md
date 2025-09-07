@@ -1,6 +1,19 @@
 # N46Whisper
-
 Fork from https://github.com/Ayanaminn/N46Whisper
+
+Language : English | [简体中文](./README_CN.md) 
+
+N46Whisper is a Google Colab notebook application that developed for streamlined video subtitle file generation to improve productivity of Nogizaka46 (and Sakamichi groups) subbers.
+
+The notebook is based on [faster-whisper](https://github.com/guillaumekln/faster-whisper), a reimplementation of OpenAI's [Whisper](https://github.com/openai/whisper) , a general-prupose speech recognition model.
+This implementation is up to 4 times faster than original Whisper for the same accuracy while using less memory.
+
+The output file will be in Advanced SubStation Alpha(ass) format with built-in style of selected sub group so it can be directly imported into [Aegisub](https://github.com/Aegisub/Aegisub) for subsequent editing.
+
+## How to use
+* [Click here](https://colab.research.google.com/github/Hashimoto-Mori/N46Whisper/blob/main/N46Whisper.ipynb) to open the notebook in Google Colab.
+* Upload file and follow the instruction to run the notebook.
+* The subtitle file will be automatically downloaded once done.
 
 ## AI translation
 The notebook now allow users to translate transcribed subtitle text line by line using AT translation tools.
