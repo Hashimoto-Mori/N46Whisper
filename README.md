@@ -2,11 +2,6 @@
 
 Forked form https://github.com/Ayanaminn/N46Whisper
 
-## How to use
-* [Click here](https://colab.research.google.com/github/Ayanaminn/N46Whisper/blob/main/N46Whisper.ipynb) to open the notebook in Google Colab.
-* Upload file and follow the instruction to run the notebook.
-* The subtitle file will be automatically downloaded once done.
-
 ## AI translation
 The notebook now allow users to translate transcribed subtitle text line by line using AT translation tools.
 
