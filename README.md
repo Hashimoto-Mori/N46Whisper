@@ -34,39 +34,6 @@ After split:
 
 >Dialogue: 0,0:01:00.52,0:01:17.52,default,,0,0,0,,ろしくお願いします(adjust_required)
 
-## Update history：
-
-2023.4.30:
-* Refine the translation prompt.
-* Allow user to custom prompt and temperature for translation.
-* Display the token used and total cost for the translation task.
-
-2023.4.15:
-* Reimplement Whsiper based on faster-whisper to improve efficiency
-* Enable vad filter that integrated within faster-whisper to improve transcribe accuracy
-2023.4.10:
-* Support for select/upload multiple files to batch process.
-
-2023.4.1:
-* Update workflow, use pysubs2 library instead of Whisper WriteSRT class for sub file manipulation.
-* Support upload srt or ass file to use AI translation function independently, support display translation progress.
-* Update documents and other minor fixes.
-
-2023.3.15:
-* Add functions to split multiple words/sententces in one line.
-* Update documents and other minor fixes.
-
-2023.3.12:
-* Add chatGPT translation and bilingual subtitle file generation features.
-* Update documents and other minor fixes.
-
-2023.01.26：
-* Update scripts to reflect recent changes in Whisper.
-
-2022.12.31：
-* Allow user to select files directly from mounted google drive.
-* Other minor fixes.
-
 ## Support
 The application could significantly reduce the labour and time costs of sub-groups or individual subbers. However, despite its impressive performance, the Whisper model and the application itself are not without limitations.Please read the orgininal documents and Discussions to learn more about the usage of Whisper and the common issues.
 
