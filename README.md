@@ -1,6 +1,6 @@
 # N46Whisper
 
-Forked form https://github.com/Ayanaminn/N46Whisper
+Fork from https://github.com/Ayanaminn/N46Whisper
 
 ## AI translation
 The notebook now allow users to translate transcribed subtitle text line by line using AT translation tools.
