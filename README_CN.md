@@ -1,5 +1,5 @@
 # N46Whisper
-本项目为https://github.com/Ayanaminn/N46Whisper的一个分支，原作者不再更新，本项目保持最低限度的可用性。
+本项目为 https://github.com/Ayanaminn/N46Whisper 的一个分支，原作者不再更新，本项目保持最低限度的可用性。
 
 Language : [English](./README.md)  | 简体中文
 
